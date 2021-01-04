@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+  height: 95vh;
+  box-sizing: border-box;
+}
+* {
+  background: white;
+}
+body {
+  margin: 0;
+}
+.container {
+  overflow-y: scroll;
+  height: 80vh;
+}
+.active {
+  background: white !important;
+  color: black !important;
+}
